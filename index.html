@@ -1,0 +1,264 @@
+<!-- Valdillez Alamos Eduardo 5-J 0903 -->
+<!DOCTYPE html>
+<html lang="es">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Página de IPhone</title>
+
+<!-- Inicio del CSS -->
+<style>
+  /* Fondo blanco y fuente general */
+  body {
+    background-color: white;
+    color: #1d1d1f;
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 0;
+    line-height: 1.5;
+  }
+
+  /* Encabezado centrado */
+  header {
+    text-align: center;
+    padding: 30px 20px 10px 20px;
+  }
+
+  /* Barra de navegacion negra */
+  nav {
+    background-color: black;
+    text-align: center;
+    padding: 14px;
+  }
+
+  /* Enlaces blancos de la barra */
+  nav a {
+    color: white;
+    text-decoration: none;
+    margin: 0 15px;
+    display: inline-block;
+  }
+
+  /* Cuerpo centrado con ancho maximo */
+  main {
+    max-width: 900px;
+    margin: 0 auto;
+    padding: 20px;
+  }
+
+  /* Separacion entre secciones */
+  section {
+    margin-bottom: 50px;
+    text-align: center;
+  }
+
+  /* Tamaño de las imagenes */
+  img {
+    max-width: 100%;
+    height: 300px;
+    object-fit: contain;
+  }
+
+  /* Espacio entre las imagenes del inicio */
+  .modelos img {
+    margin: 10px;
+  }
+
+  /* Tablas de especificaciones */
+  table {
+    margin: 0 auto;
+    border-collapse: collapse;
+    text-align: left;
+  }
+
+  /* Bordes y espacio de las celdas */
+  td, th {
+    border: 1px solid #ccc;
+    padding: 8px 14px;
+  }
+
+  /* Formulario centrado */
+  form {
+    max-width: 400px;
+    margin: 0 auto;
+    text-align: left;
+  }
+
+  /* Campos del formulario a todo el ancho */
+  input[type="text"], input[type="email"], select, textarea {
+    width: 100%;
+    padding: 8px;
+    margin: 5px 0 15px 0;
+    box-sizing: border-box;
+  }
+
+  /* Footer negro con texto blanco */
+  footer {
+    background-color: black;
+    color: white;
+    text-align: center;
+    padding: 25px 20px;
+  }
+</style>
+<!-- Fin del CSS -->
+</head>
+
+<body>
+
+<!-- ============ INICIO DEL ENCABEZADO ============ -->
+<header>
+  <h1>iPhone</h1>
+  <p>Conoce los modelos de la familia iPhone 17 y sus especificaciones.</p>
+</header>
+<!-- ============ FIN DEL ENCABEZADO ============ -->
+
+<!-- ============ INICIO DE LA BARRA DE NAVEGACION ============ -->
+<nav>
+  <!-- Cada enlace lleva a la seccion con ese id -->
+  <a href="#inicio">Inicio</a>
+  <a href="#iphone17">iPhone 17</a>
+  <a href="#iphoneair">iPhone Air</a>
+  <a href="#iphone17pro">iPhone 17 Pro</a>
+  <a href="#iphone17promax">iPhone 17 Pro Max</a>
+  <a href="#contacto">Contacto</a>
+</nav>
+<!-- ============ FIN DE LA BARRA DE NAVEGACION ============ -->
+
+<!-- ============ INICIO DEL CUERPO ============ -->
+<main>
+
+  <!-- Inicio de la pagina de inicio -->
+  <section id="inicio">
+    <h2>Bienvenido</h2>
+    <p>Elige el iPhone que mejor se adapte a ti. Aqui encontraras fotos y las caracteristicas principales de cada modelo.</p>
+    <!-- Imagenes de portada -->
+    <div class="modelos">
+      <img src="imagenes/iphone17.jpg" alt="iPhone 17">
+      <img src="imagenes/iphone17pro.jpg" alt="iPhone 17 Pro">
+    </div>
+  </section>
+  <!-- Fin de la pagina de inicio -->
+
+  <hr>
+
+  <!-- Inicio del modelo 1: iPhone 17 -->
+  <section id="iphone17">
+    <h2>iPhone 17</h2>
+    <img src="imagenes/iphone17.jpg" alt="iPhone 17">
+    <h3>Especificaciones</h3>
+    <!-- Tabla de especificaciones -->
+    <table>
+      <tr><th>Pantalla</th><td>6.3 pulgadas, Super Retina XDR, 120 Hz</td></tr>
+      <tr><th>Chip</th><td>A19</td></tr>
+      <tr><th>Camara trasera</th><td>Doble de 48 MP</td></tr>
+      <tr><th>Material</th><td>Aluminio</td></tr>
+      <tr><th>Almacenamiento</th><td>Desde 256 GB</td></tr>
+    </table>
+  </section>
+  <!-- Fin del modelo 1 -->
+
+  <!-- Inicio del modelo 2: iPhone Air -->
+  <section id="iphoneair">
+    <h2>iPhone Air</h2>
+    <img src="imagenes/iphoneair.jpg" alt="iPhone Air">
+    <h3>Especificaciones</h3>
+    <!-- Tabla de especificaciones -->
+    <table>
+      <tr><th>Pantalla</th><td>6.5 pulgadas, Super Retina XDR, 120 Hz</td></tr>
+      <tr><th>Chip</th><td>A19 Pro</td></tr>
+      <tr><th>Camara trasera</th><td>Una de 48 MP</td></tr>
+      <tr><th>Material</th><td>Titanio</td></tr>
+      <tr><th>Almacenamiento</th><td>Desde 256 GB</td></tr>
+    </table>
+  </section>
+  <!-- Fin del modelo 2 -->
+
+  <!-- Inicio del modelo 3: iPhone 17 Pro -->
+  <section id="iphone17pro">
+    <h2>iPhone 17 Pro</h2>
+    <img src="imagenes/iphone17pro.jpg" alt="iPhone 17 Pro">
+    <h3>Especificaciones</h3>
+    <!-- Tabla de especificaciones -->
+    <table>
+      <tr><th>Pantalla</th><td>6.3 pulgadas, Super Retina XDR, 120 Hz</td></tr>
+      <tr><th>Chip</th><td>A19 Pro</td></tr>
+      <tr><th>Camara trasera</th><td>Triple de 48 MP</td></tr>
+      <tr><th>Material</th><td>Aluminio</td></tr>
+      <tr><th>Almacenamiento</th><td>Desde 256 GB</td></tr>
+    </table>
+  </section>
+  <!-- Fin del modelo 3 -->
+
+  <!-- Inicio del modelo 4: iPhone 17 Pro Max -->
+  <section id="iphone17promax">
+    <h2>iPhone 17 Pro Max</h2>
+    <img src="imagenes/iphone17promax.jpg" alt="iPhone 17 Pro Max">
+    <h3>Especificaciones</h3>
+    <!-- Tabla de especificaciones -->
+    <table>
+      <tr><th>Pantalla</th><td>6.9 pulgadas, Super Retina XDR, 120 Hz</td></tr>
+      <tr><th>Chip</th><td>A19 Pro</td></tr>
+      <tr><th>Camara trasera</th><td>Triple de 48 MP</td></tr>
+      <tr><th>Material</th><td>Aluminio</td></tr>
+      <tr><th>Almacenamiento</th><td>Desde 256 GB</td></tr>
+    </table>
+  </section>
+  <!-- Fin del modelo 4 -->
+
+  <hr>
+
+  <!-- Inicio de la seccion de contacto -->
+  <section id="contacto">
+    <h2>Contacto</h2>
+    <p>¿Quieres mas informacion? Llena el formulario y te responderemos.</p>
+
+    <!-- Inicio del formulario de contacto -->
+    <form action="" method="post">
+
+      <!-- Campo de texto para el nombre -->
+      <label for="nombre">Nombre:</label>
+      <input type="text" id="nombre" name="nombre">
+
+      <!-- Campo de correo -->
+      <label for="correo">Correo electronico:</label>
+      <input type="email" id="correo" name="correo">
+
+      <!-- Lista desplegable con los modelos -->
+      <label for="modelo">Modelo de interes:</label>
+      <select id="modelo" name="modelo">
+        <option value="iphone17">iPhone 17</option>
+        <option value="iphoneair">iPhone Air</option>
+        <option value="iphone17pro">iPhone 17 Pro</option>
+        <option value="iphone17promax">iPhone 17 Pro Max</option>
+      </select>
+
+      <!-- Botones de opcion (solo se elige uno) -->
+      Prefieres que te contactemos por:<br>
+      <input type="radio" id="porcorreo" name="medio" value="correo"> <label for="porcorreo">Correo</label>
+      <input type="radio" id="portelefono" name="medio" value="telefono"> <label for="portelefono">Telefono</label>
+      <br><br>
+
+      <!-- Area de texto para comentarios -->
+      <label for="comentarios">Comentarios:</label>
+      <textarea id="comentarios" name="comentarios" rows="4"></textarea>
+
+      <!-- Botones de enviar y borrar -->
+      <input type="submit" value="Enviar">
+      <input type="reset" value="Borrar">
+    </form>
+    <!-- Fin del formulario de contacto -->
+  </section>
+  <!-- Fin de la seccion de contacto -->
+
+</main>
+<!-- ============ FIN DEL CUERPO ============ -->
+
+<!-- ============ INICIO DEL FOOTER ============ -->
+<footer>
+  <p><strong>Valdillez Alamos Eduardo</strong></p>
+  <p>Grado: 5 | Grupo: J | Num. de control: 0903</p>
+  <p>Construye aplicaciones web</p>
+</footer>
+<!-- ============ FIN DEL FOOTER ============ -->
+
+</body>
+</html>
